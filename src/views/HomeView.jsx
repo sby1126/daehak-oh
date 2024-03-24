@@ -5,10 +5,12 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Port from '../components/Port'
 import Main from '../components/Main'
+import Skip from '../components/Skip'
 
 const HomeView = () => {
   return (
     <div>
+        <Skip />
         <Header/>
         <Main>
             <Intro />
